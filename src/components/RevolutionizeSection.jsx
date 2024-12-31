@@ -8,7 +8,7 @@ const RevolutionizeSection = () => {
 
   return (
     <div className="bg-gray-300 text-black py-12 px-8 flex flex-col items-center">
-      <h2 className="text-4xl font-bold text-center mb-8">
+      <h2 className="text-4xl font-bold text-center mb-8 text-[#2B3C77]">
         Ready to Revolutionize Your Financial Management?
       </h2>
       <p className="text-lg text-center max-w-3xl mb-8">

@@ -5,16 +5,13 @@ import WhyDNAGrowth from "./components/WhyDNAGrowth";
 import WhyChooseDNAGrowth from "./components/WhyChooseDNAGrowth";
 import RevolutionizeSection from "./components/RevolutionizeSection";
 import logo from "../assets/DNAGrowth.png";
+import whychoose from "../assets/slider-1 (1).jpg";
 const App = () => {
   return (
     <div className="flex flex-col justify-center items-center h-full bg-gray-100 pt-8 pb-8 relative">
       {/* Logo at top-left */}
       <div className="absolute top-4 left-24 mb-4">
-        <img
-          src={logo}
-          alt="DNA Growth Logo"
-          className="h-12 w-auto"
-        />
+        <img src={logo} alt="DNA Growth Logo" className="h-12 w-auto" />
       </div>
 
       <div className="flex flex-col lg:flex-row justify-between max-w-7xl w-full p-8">
@@ -23,7 +20,7 @@ const App = () => {
           <p className="text-xl font-semibold text-gray-500 border-[1px] border-gray-500 p-2 rounded-lg">
             Affected by the closure of Bench Accounting?
           </p>
-          <h1 className="text-3xl font-bold text-gray-800">
+          <h1 className="text-3xl font-bold text-[#2B3C77]">
             Let DNA Growth solve your bookkeeping.
           </h1>
 
@@ -50,16 +47,12 @@ const App = () => {
 
       <div className="flex flex-col bg-blue-100 ">
         <div className="flex justify-center items-center text-white p-4">
-          <h1 className="text-3xl lg:text-5xl font-semibold text-black">
+          <h1 className="text-3xl lg:text-5xl font-semibold text-[#2B3C77]">
             Why Choose DNA Growth?
           </h1>
         </div>
         <div className="flex flex-col lg:flex-row gap-4 justify-center items-center">
-          <img
-            className="w-10/12 lg:w-6/12"
-            src="assets/slider-1 (1).jpg"
-            alt=""
-          />
+          <img className="w-10/12 lg:w-6/12" src={whychoose} alt="" />
           <WhyChooseDNAGrowth />
         </div>
       </div>
