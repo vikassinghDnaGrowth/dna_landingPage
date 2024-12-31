@@ -4,10 +4,10 @@ import Quiickbook from "../../assets/Quiickbook.png"; // Importing image
 import xero from "../../assets/unnamed__1_-removebg-preview.png"; // Importing image
 const WhyDNAGrowth = () => {
   return (
-    <section className="mt-8 bg-gray-100">
+    <section className="mt-8 bg-blue-200 py-8">
       <div className="max-w-screen-xl mx-auto px-4">
         {/* Header */}
-        <h2 className="text-xl md:text-4xl text-center font-bold text-[#2B3C77] mb-12">
+        <h2 className="text-xl md:text-4xl text-center font-bold text-black mb-12 pt-6">
           Why DNA Growth is the Best Choice for You
         </h2>
 

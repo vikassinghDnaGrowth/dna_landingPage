@@ -8,7 +8,7 @@ import {
 
 const WhyChooseDNAGrowth = () => {
   return (
-    <section className="bg-transparent py-2">
+    <section className="bg-blue-200 py-2 rounded-xl">
       <div className="max-w-screen-xl mx-auto px-4">
         {/* Key Points Section */}
         <div className="space-y-8">
