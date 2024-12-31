@@ -1,6 +1,7 @@
 import React from "react";
 import { FaRobot, FaUsers, FaChartLine, FaClipboardList } from "react-icons/fa"; // Importing icons
-
+import Quiickbook from "../../assets/Quiickbook.png"; // Importing image
+import xero from "../../assets/unnamed__1_-removebg-preview.png"; // Importing image
 const WhyDNAGrowth = () => {
   return (
     <section className="mt-8 bg-gray-100">
@@ -15,11 +16,18 @@ const WhyDNAGrowth = () => {
           {/* Modern Software Stack */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out text-center">
             {/* Image with reduced size */}
-            <img
-              src="assets\Quiickbook.png"
-              alt="Modern Software Stack"
-              className="w-16 h-auto mx-auto mb-4" // Adjusted width to 6rem (w-24)
-            />
+            <div className="w-full flex justify-center items-center">
+              <img
+                src={Quiickbook}
+                alt="Modern Software Stack"
+                className="w-16 h-auto mx-auto mb-4" // Adjusted width to 6rem (w-24)
+              />
+              <img
+                src={xero}
+                alt="Modern Software Stack"
+                className="w-12 h-auto mx-auto mb-4" // Adjusted width to 6rem (w-24)
+              />
+            </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Modern Software Stack
             </h3>
