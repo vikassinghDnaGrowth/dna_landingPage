@@ -1,11 +1,12 @@
 import React from "react";
 import ContactForm from "./components/ContactForm";
-import ReviewPage from "./components/ReviewPage"; // Importing the ReviewPage
+import ReviewPage from "./components/ReviewPage";
 import WhyDNAGrowth from "./components/WhyDNAGrowth";
 import WhyChooseDNAGrowth from "./components/WhyChooseDNAGrowth";
 import RevolutionizeSection from "./components/RevolutionizeSection";
 import logo from "../assets/DNAGrowth.png";
 import whychoose from "../assets/slider-1 (1).jpg";
+
 const App = () => {
   return (
     <div className="flex flex-col justify-center items-center h-full bg-gray-100 pt-8 pb-8 relative">
@@ -40,12 +41,15 @@ const App = () => {
         </div>
 
         {/* Right Section (Contact Form) */}
-        <div className="w-full lg:w-5/12 p-6 bg-gray-50 rounded-lg shadow-lg">
+        <div
+          className="w-full lg:w-5/12 p-6 bg-gray-50 rounded-lg shadow-lg"
+          id="contact-form"
+        >
           <ContactForm />
         </div>
       </div>
 
-      <div className="flex flex-col bg-blue-100 ">
+      <div className="flex flex-col bg-blue-100">
         <div className="flex justify-center items-center text-white p-4">
           <h1 className="text-3xl lg:text-5xl font-semibold text-[#2B3C77]">
             Why Choose DNA Growth?
