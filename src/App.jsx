@@ -11,21 +11,21 @@ const App = () => {
   return (
     <div className="flex flex-col justify-center items-center h-full bg-gray-100 pt-8 pb-8 relative">
       {/* Logo at top-left */}
-      <div className="absolute top-4 left-24 mb-4">
+      <div className="absolute top-4 md:left-24 mb-4">
         <img src={logo} alt="DNA Growth Logo" className="h-12 w-auto" />
       </div>
 
       <div className="flex flex-col lg:flex-row justify-between max-w-7xl w-full p-8">
         {/* Left Section */}
         <div className="w-full lg:w-1/2 p-6 flex flex-col items-start space-y-6">
-          <p className="text-xl font-semibold text-gray-500 border-[1px] border-gray-500 p-2 rounded-lg">
+          <p className="text-sm md:text-xl font-semibold text-gray-500 border-[1px] border-gray-500 p-2 rounded-lg">
             Affected by the closure of Bench Accounting?
           </p>
-          <h1 className="text-3xl font-bold text-[#2B3C77]">
+          <h1 className=" text-md md:text-3xl font-bold text-[#2B3C77]">
             Let DNA Growth solve your bookkeeping.
           </h1>
 
-          <p className="text-lg">
+          <p className="text-sm md:text-lg ">
             We understand the frustration caused by the unexpected shutdown of
             Bench Accounting. At DNA Growth, we're here to make your transition
             as seamless and stress-free as possible. We recognize the challenges

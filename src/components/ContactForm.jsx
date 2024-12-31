@@ -11,6 +11,7 @@ const ContactForm = () => {
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,20 +22,32 @@ const ContactForm = () => {
     e.preventDefault();
     setLoading(true);
     setError("");
+    setSuccess("");
 
     try {
-      // Handle form submission logic here (e.g., send to an API)
-      console.log(formData);
-
-      // Reset form after submission
-      setFormData({
-        firstName: "",
-        lastName: "",
-        companyName: "",
-        monthlyExpenses: "",
-        email: "",
-        contactNumber: "",
+      const response = await fetch(import.meta.env.VITE_SHEETDB_API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+        mode: "cors", // Ensures CORS is allowed
       });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSuccess("Form submitted successfully!");
+        // Reset form after successful submission
+        setFormData({
+          firstName: "",
+          lastName: "",
+          companyName: "",
+          monthlyExpenses: "",
+          email: "",
+          contactNumber: "",
+        });
+      }
     } catch (submissionError) {
       setError("An error occurred while submitting the form.");
     } finally {
@@ -43,17 +56,19 @@ const ContactForm = () => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-  id="contact-form"
-    >
+    <form onSubmit={handleSubmit} id="contact-form">
       {error && (
         <p className="text-red-600 mb-4" aria-live="polite">
           {error}
         </p>
       )}
+      {success && (
+        <p className="text-green-600 mb-4" aria-live="polite">
+          {success}
+        </p>
+      )}
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl text-center text-black font-bold font-roboto-slab uppercase mb-6">
+      <h1 className="text-lg sm:text-3xl md:text-4xl text-center text-black font-bold font-roboto-slab uppercase mb-6">
         Get Started Today
       </h1>
 

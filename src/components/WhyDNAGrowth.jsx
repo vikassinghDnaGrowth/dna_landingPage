@@ -7,7 +7,7 @@ const WhyDNAGrowth = () => {
     <section className="mt-8 bg-gray-100">
       <div className="max-w-screen-xl mx-auto px-4">
         {/* Header */}
-        <h2 className="text-3xl md:text-4xl text-center font-bold text-[#2B3C77] mb-12">
+        <h2 className="text-xl md:text-4xl text-center font-bold text-[#2B3C77] mb-12">
           Why DNA Growth is the Best Choice for You
         </h2>
 
