@@ -75,7 +75,10 @@ const ContactForm = () => {
       {/* First Name and Last Name */}
       <div className="mb-6 flex gap-4">
         <div className="flex-1">
-          <label className="block text-black" htmlFor="firstName">
+          <label
+            className="block text-sm sm:text-base text-black"
+            htmlFor="firstName"
+          >
             First Name*
           </label>
           <input
@@ -91,7 +94,10 @@ const ContactForm = () => {
         </div>
 
         <div className="flex-1">
-          <label className="block text-black" htmlFor="lastName">
+          <label
+            className="block text-sm sm:text-base text-black"
+            htmlFor="lastName"
+          >
             Last Name*
           </label>
           <input
@@ -110,7 +116,10 @@ const ContactForm = () => {
       {/* Company Name and Monthly Expenses */}
       <div className="mb-6 flex gap-4">
         <div className="flex-1">
-          <label className="block text-black" htmlFor="companyName">
+          <label
+            className="block text-sm sm:text-base text-black"
+            htmlFor="companyName"
+          >
             Company Name
           </label>
           <input
@@ -125,7 +134,10 @@ const ContactForm = () => {
         </div>
 
         <div className="flex-1">
-          <label className="block text-black" htmlFor="monthlyExpenses">
+          <label
+            className="block text-sm sm:text-base text-black"
+            htmlFor="monthlyExpenses "
+          >
             Monthly Expenses*
           </label>
           <select
@@ -147,7 +159,10 @@ const ContactForm = () => {
 
       {/* Email */}
       <div className="mb-4">
-        <label className="block text-black" htmlFor="email">
+        <label
+          className="block text-sm sm:text-base text-black"
+          htmlFor="email"
+        >
           Email*
         </label>
         <input
@@ -164,7 +179,10 @@ const ContactForm = () => {
 
       {/* Contact Number */}
       <div className="mb-4">
-        <label className="block text-black" htmlFor="contactNumber">
+        <label
+          className="block text-sm sm:text-base text-black"
+          htmlFor="contactNumber"
+        >
           Contact Number
         </label>
         <input

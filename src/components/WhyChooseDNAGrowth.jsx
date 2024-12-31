@@ -14,7 +14,7 @@ const WhyChooseDNAGrowth = () => {
         <div className="space-y-8">
           {/* Seamless Migration */}
           <div className="flex items-center space-x-4">
-            <FaExchangeAlt className="text-3xl text-blue-500" />
+            <FaExchangeAlt className="text-6xl sm:text-3xl text-blue-500" />
             <div>
               <h1 className="text-xl font-semibold text-gray-800">
                 Seamless Migration
@@ -30,7 +30,7 @@ const WhyChooseDNAGrowth = () => {
 
           {/* Tailored Financial Solutions */}
           <div className="flex items-center space-x-4">
-            <FaLaptopCode className="text-3xl text-green-500" />
+            <FaLaptopCode className="text-6xl sm:text-3xl text-green-500" />
             <div>
               <h1 className="text-xl font-semibold text-gray-800">
                 Tailored Financial Solutions
@@ -45,7 +45,7 @@ const WhyChooseDNAGrowth = () => {
 
           {/* Personalized Support */}
           <div className="flex items-center space-x-4">
-            <FaRegUser className="text-3xl text-yellow-500" />
+            <FaRegUser className="text-6xl sm:text-3xl text-yellow-500" />
             <div>
               <h1 className="text-xl font-semibold text-gray-800">
                 Personalized Support
@@ -60,7 +60,7 @@ const WhyChooseDNAGrowth = () => {
 
           {/* Tech-Savvy & Human Touch */}
           <div className="flex items-center space-x-4">
-            <FaLaptopCode className="text-3xl text-purple-500" />
+            <FaLaptopCode className="text-6xl sm:text-3xl text-purple-500" />
             <div>
               <h1 className="text-xl font-semibold text-gray-800">
                 Tech-Savvy & Human Touch
@@ -75,16 +75,16 @@ const WhyChooseDNAGrowth = () => {
 
           {/* 50% Off Your First Month */}
           <div className="flex items-center space-x-4">
-            <FaRegHandPointer className="text-3xl text-red-500" />
+            <FaRegHandPointer className="text-6xl sm:text-3xl text-red-500" />
             <div>
               <h1 className="text-xl font-semibold text-gray-800">
                 50% Off Your First Month
               </h1>
               <p className="text-gray-600">
                 To make your transition easier, we’re offering{" "}
-                <span className="font-bold text-green-600">50% off</span> your first month. It's our way of showing
-                our commitment to your business and easing the impact of the
-                sudden change.
+                <span className="font-bold text-green-600">50% off</span> your
+                first month. It's our way of showing our commitment to your
+                business and easing the impact of the sudden change.
               </p>
             </div>
           </div>
