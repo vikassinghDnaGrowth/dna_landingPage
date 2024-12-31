@@ -4,14 +4,14 @@ import ReviewPage from "./components/ReviewPage"; // Importing the ReviewPage
 import WhyDNAGrowth from "./components/WhyDNAGrowth";
 import WhyChooseDNAGrowth from "./components/WhyChooseDNAGrowth";
 import RevolutionizeSection from "./components/RevolutionizeSection";
-
+import logo from "../assets/DNAGrowth.png";
 const App = () => {
   return (
     <div className="flex flex-col justify-center items-center h-full bg-gray-100 pt-8 pb-8 relative">
       {/* Logo at top-left */}
       <div className="absolute top-4 left-24 mb-4">
         <img
-          src="assets/DNAGrowth.png"
+          src={logo}
           alt="DNA Growth Logo"
           className="h-12 w-auto"
         />
