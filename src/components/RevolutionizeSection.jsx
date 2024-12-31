@@ -16,7 +16,7 @@ const RevolutionizeSection = () => {
 
   return (
     <div className="bg-gray-300 text-black py-12 px-4 md:px-8 flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-[#2B3C77]">
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#2B3C77]">
         Ready to Revolutionize Your Financial Management?
       </h2>
       <p className="text-base md:text-lg text-center max-w-3xl mb-8">
@@ -31,7 +31,7 @@ const RevolutionizeSection = () => {
         <h3 className="text-2xl md:text-3xl font-semibold text-center text-blue-600 mb-4">
           Take the First Step Today
         </h3>
-        <p className="text-base md:text-lg text-center mb-6">
+        <p className="text-base  md:text-lg text-center mb-6">
           Ready to get your books in order with DNA Growth? Contact us today to
           get started and take advantage of our 50% off offer for your first
           month!
@@ -46,7 +46,7 @@ const RevolutionizeSection = () => {
           </button>
 
           <button
-            className="bg-blue-600 text-white text-lg font-semibold py-3 px-8 rounded-lg transition-transform transform hover:scale-105 w-full sm:w-auto"
+            className="bg-blue-600 text-white text-lg font-semibold md:py-3 md:px-8 py-2 px-4 rounded-lg transition-transform transform hover:scale-105 w-full sm:w-auto"
             onClick={handleSwitchToDNAGrowth} // Call the function to redirect
           >
             Switch to DNA Growth

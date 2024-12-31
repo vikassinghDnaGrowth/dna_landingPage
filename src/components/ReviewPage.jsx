@@ -7,7 +7,7 @@ import GurooLogo from "../../assets/Guroo_US-removebg-preview.png";
 import LionforceLogo from "../../assets/Lionforce-removebg-preview.png";
 import MasterFoodsLogo from "../../assets/MasterFoods-removebg-preview.png";
 import MedilineLogo from "../../assets/Mediline_ Canada.png";
-import QuiickbookLogo from "../../assets/unnamed__1_-removebg-preview.png";
+// import QuiickbookLogo from "../../assets/unnamed__1_-removebg-preview.png";
 import TaraWrightLogo from "../../assets/Tara wright - Canada, Halifax.png";
 import VehyaLogo from "../../assets/Vehya-removebg-preview.png";
 import UrbanexLogo from "../../assets/Urbanex.png";
@@ -34,7 +34,7 @@ const ReviewPage = () => {
 
   return (
     <div className="w-full flex flex-col items-center py-6 bg-blue-300 text-white mt-4">
-      <h1 className="text-3xl md:text-4xl font-bold mb-12 text-[#2B3C77]">
+      <h1 className="text-2xl md:text-4xl font-bold mb-12 text-[#2B3C77]">
         Client Success Stories
       </h1>
 
@@ -56,11 +56,6 @@ const ReviewPage = () => {
         {/* Right side: Logos in a Grid */}
         <div className="w-full md:w-5/12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
           <img
-            src={G6RenovationLogo}
-            alt="Company Logo"
-            className="w-full h-32 object-contain transition-all duration-300 hover:scale-105"
-          />
-          <img
             src={GurooLogo}
             alt="Company Logo"
             className="w-full h-32 object-contain transition-all duration-300 hover:scale-105"
@@ -81,10 +76,15 @@ const ReviewPage = () => {
             className="w-full h-32 object-contain transition-all duration-300 hover:scale-105"
           />
           <img
+            src={G6RenovationLogo}
+            alt="Company Logo"
+            className="w-full h-32 object-contain transition-all duration-300 hover:scale-105 "
+          />
+          {/* <img
             src={QuiickbookLogo}
             alt="Company Logo"
             className="w-full h-32 object-contain transition-all duration-300 hover:scale-105"
-          />
+          /> */}
           <img
             src={TaraWrightLogo}
             alt="Company Logo"
