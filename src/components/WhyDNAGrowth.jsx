@@ -6,7 +6,7 @@ const WhyDNAGrowth = () => {
     <section className="mt-8 bg-gray-100">
       <div className="max-w-screen-xl mx-auto px-4">
         {/* Header */}
-        <h2 className="text-3xl md:text-4xl text-center font-bold text-gray-800 mb-12">
+        <h2 className="text-3xl md:text-4xl text-center font-bold text-[#2B3C77] mb-12">
           Why DNA Growth is the Best Choice for You
         </h2>
 
@@ -24,10 +24,14 @@ const WhyDNAGrowth = () => {
               Modern Software Stack
             </h3>
             <p className="text-gray-600">
-              Our smart, industry-leading tools, including QuickBooks, Xero,
-              Zoho Books, and Power BI, ensure accurate, real-time financial
-              data and insights. With AI-powered transaction categorization, we
-              save you over 70 hours every month.
+              Our smart, industry-leading tools, including{" "}
+              <span className="font-semibold">
+                QuickBooks, Xero, Zoho Books,
+              </span>{" "}
+              and <span className="font-semibold">Power BI,</span> ensure
+              accurate, real-time financial data and insights. With AI-powered
+              transaction categorization, we save you over{" "}
+              <span className="font-semibold">70 hours</span> every month.
             </p>
           </div>
 
@@ -38,9 +42,10 @@ const WhyDNAGrowth = () => {
               Expert Financial Support
             </h3>
             <p className="text-gray-600">
-              Our team of experienced accountants provides daily updates and
-              insights, helping you manage your finances with precision, so you
-              can make informed decisions without surprises.
+              Our team of experienced accountants provides{" "}
+              <span className="font-semibold">daily updates and insights</span>,
+              helping you manage your finances with precision, so you can make
+              informed decisions without surprises.
             </p>
           </div>
 
@@ -51,9 +56,12 @@ const WhyDNAGrowth = () => {
               Proactive Financial Management
             </h3>
             <p className="text-gray-600">
-              We focus on preventing issues before they arise, helping you
-              manage your financial operations proactively, unlike the
-              disruptions you may have faced with Bench.
+              We focus on{" "}
+              <span className="font-semibold">
+                preventing issues before they arise
+              </span>
+              , helping you manage your financial operations proactively, unlike
+              the disruptions you may have faced with Bench.
             </p>
           </div>
 
