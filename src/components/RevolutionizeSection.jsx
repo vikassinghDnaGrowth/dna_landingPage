@@ -15,7 +15,7 @@ const RevolutionizeSection = () => {
   };
 
   return (
-    <div className="bg-gray-300 text-black py-12 px-4 md:px-8 flex flex-col items-center">
+    <div className="bg-blue-100 text-black py-12 px-4 md:px-8 flex flex-col items-center">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#2B3C77]">
         Ready to Revolutionize Your Financial Management?
       </h2>

@@ -9,7 +9,7 @@ import whychoose from "../assets/slider-1 (1).jpg";
 
 const App = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-full bg-gray-100 pt-8 pb-8 relative">
+    <div className="flex flex-col justify-center items-center h-full bg-blue-100 pt-8 pb-8 relative">
       {/* Logo at top-left */}
       <div className="absolute top-4 md:left-24 mb-4">
         <img src={logo} alt="DNA Growth Logo" className="h-12 w-auto" />
@@ -17,15 +17,15 @@ const App = () => {
 
       <div className="flex flex-col lg:flex-row justify-between max-w-7xl w-full p-8">
         {/* Left Section */}
-        <div className="w-full lg:w-1/2 p-6 flex flex-col items-start space-y-6">
-          <p className="text-sm md:text-xl font-semibold text-gray-500 border-[1px] border-gray-500 p-2 rounded-lg">
+        <div className="w-full lg:w-1/2 p-6 flex flex-col items-start justify-center space-y-6 ">
+          <p className="text-sm md:text-xl font-semibold text-gray-500 border-[1px] border-gray-500 p-2 rounded-lg shadow-xl">
             Affected by the closure of Bench Accounting?
           </p>
           <h1 className=" text-md md:text-3xl font-bold text-[#2B3C77]">
             Let DNA Growth solve your bookkeeping.
           </h1>
 
-          <p className="text-sm md:text-lg ">
+          <p className="text-sm md:text-lg font-sans">
             We understand the frustration caused by the unexpected shutdown of
             Bench Accounting. At DNA Growth, we're here to make your transition
             as seamless and stress-free as possible. We recognize the challenges
@@ -49,9 +49,9 @@ const App = () => {
         </div>
       </div>
 
-      <div className="flex flex-col bg-blue-100">
+      <div className="flex flex-col bg-violet-200">
         <div className="flex justify-center items-center text-white p-4">
-          <h1 className="text-3xl lg:text-5xl font-semibold text-[#2B3C77]">
+          <h1 className="text-3xl lg:text-5xl font-semibold text-black">
             Why Choose DNA Growth?
           </h1>
         </div>

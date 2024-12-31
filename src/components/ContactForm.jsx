@@ -207,7 +207,7 @@ const ContactForm = () => {
         </button>
       </div>
 
-      <p className="text-center text-black mt-4">
+      <p className="text-center text-black mt-4 ">
         We’ll get back to you within 24 hours.
       </p>
     </form>

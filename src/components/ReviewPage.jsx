@@ -33,8 +33,8 @@ const ReviewPage = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center py-6 bg-blue-300 text-white mt-4">
-      <h1 className="text-2xl md:text-4xl font-bold mb-12 text-[#2B3C77]">
+    <div className="w-full flex flex-col items-center py-6 bg-violet-300 text-white mt-4">
+      <h1 className="text-2xl md:text-4xl font-bold mb-12 text-black">
         Client Success Stories
       </h1>
 
